@@ -1,0 +1,18 @@
+body{background: url(../images/member_bg.jpg) no-repeat center center; background-size: cover; font-family: 'Noto Sans KR';}
+#content{width: 800px; margin: 0 auto; margin-top: 200px; background: #fff; padding:30px; padding-bottom:50px; margin-bottom: 100px;}
+
+span.red{color: red;}
+h1 a{display: block; background: url(../../common/images/header_logo2.png) no-repeat; width: 286px; height: 65px; text-indent: -999px; font-size: 0; 
+    margin: 0 auto;}
+p.must{color: #ccc; text-align: right;}
+.gap{margin-left: 90px;}
+#join2 ul li{margin-bottom: 20px; width: 100%; overflow: hidden;}
+label{margin-right: 10px; width: 120px; display: block; float: left; }
+input, select{width: 30%; background: #ddd; border: 0; border-radius: 2px; padding: 10px;}
+select#hp1.hp{width: 10%;}
+input#hp2.hp{width: 30%;}
+input#hp3.hp{width: 30%;}
+
+#button{ text-align: center; margin-top: 50px;}
+#button a:first-child{ padding: 10px 15px; background: #1460ad; color: #fff; margin-right: 10px;}
+#button a:last-child{ padding: 10px 15px; background: #ddd;  margin-left: 10px;}

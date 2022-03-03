@@ -1,0 +1,129 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학회지-JKAS</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content3.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>회원공간</h3>
+            <p>회원분들께 드리는 안내입니다.</p>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub5_1.html">가입안내</a></li>
+                <li><a href="./sub5_2.html">내 정보</a></li>
+                <li class="current"><a href="./sub5_3.html">회비납부</a></li>
+                <li><a href="./sub5_4.html">입회원서다운</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 회원공간 &gt; <strong>회비 납부</strong>
+                </div>
+                <h2>회비 납부</h2>
+            </div>
+
+            <div class="content_area">
+                <div class="pay">
+                    <p><i class="fas fa-bullhorn"></i><strong> 입금계좌</strong> 국민 xxxxxx-xx-xxxxxx 한국천문학회</p>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>정회원</th>
+                            <th>준회원</th>
+                            <th>명예회원</th>
+                            <th>기관회원</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>회원기간</td>
+                            <td colspan="4">매년 1월 1일 ~ 12월 31일</td>
+                        </tr>
+                        <tr>
+                            <td>연회비</td>
+                            <td>70,000</td>
+                            <td>50,000</td>
+                            <td>50,000</td>
+                            <td>1,400,000원</td>
+                        </tr>
+                        <tr>
+                            <td>학회지</td>
+                            <td>30,000</td>
+                            <td>30,000</td>
+                            <td>30,000</td>
+                            <td>15,000</td>
+                        </tr>
+                        <tr>
+                            <td>분과회비</td>
+                            <td class="text-left" colspan="4">
+                            <ul class="lst-type-dash">
+                                <li>10,000 (분과명: <span>공업</span>, 교육, 환경)</li>
+                                <li>20,000 (분과명: 고분자)</li>
+                                <li>30,000 (분과명: <span>무기,&nbsp;분석,&nbsp;</span><span>생명, 유기</span>, 재료, 전기, 의약)</li>
+                                <li>50,000 (분과명: 물리)</li>
+                            </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+        
+        <footer id="footerArea">
+            <div class="footer_inner">
+                <a class="topMove" href="#"><span class="hidden">top</span><i class="fas fa-chevron-circle-up"></i></a>
+                <div class="footer1">
+                    <ul>
+                        <li>개인정보처리방침776 Daedeokdae-ro Yuseong-Gu Daejon, KOREA</li>
+                        <li>Tel. 042-865-3395</li>
+                        <li>Fax. 042-865-3396</li>
+                        <li>E-mail. kas@kasi.re.kr</li>
+                    </ul>
+                </div>
+                <div class="footer2">
+                     <ul>
+                         <li>상호명 : 사단법인 한국천문학회</li>
+                         <li>주소명 : 대전광역시 유성구 대덕대로 776</li>
+                         <li>사업자번호 : 314-82-06495</li>
+                         <li>대표자 : 류동수</li>
+                     </ul>
+                </div>
+                 <div class="footer3">
+                     <a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">FAMILY SITE<i class="fas fa-caret-down"></i></a>
+                 </div>
+                 <div class="logo_footer">
+                     <a href="index.html">한국천문학회로고</a>
+                 </div>
+            </div>
+         </footer>
+        </div>
+        <? include "../common/sub_footer.html" ?>
+        <script src="./js/slide_move.js"></script>
+</body>
+</html>

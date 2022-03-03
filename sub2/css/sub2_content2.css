@@ -1,0 +1,26 @@
+#content h2{margin-bottom: 20px;}
+#content h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 50px;}
+#content h4{margin-bottom: 20px;}
+#content ol{list-style: decimal;}
+.title_area .subtitle{text-align: center; margin-bottom: 70px;}
+
+
+.tabs {width: 1200px;} 
+.tabs .tab_menu{overflow: hidden; padding: 20px 0  20px 320px;}
+.tabs .tab_menu li{float: left; margin-right: 50px; }
+.tabs a.tab {display:block; width:150px; text-align: center; border-radius: 50%; height: 110px; 
+    box-shadow: 3px 3px 10px 3px rgb(204, 204, 204); padding-top: 40px;
+    font-size: 20px; font-weight: 300; background: #fff; color: #333; font-weight: bold; transition: all .5s; } 
+
+
+
+.contlist{position: relative; margin-top: 150px; display: none;}
+.contlist span::before{content: ''; width: 30px; height: 30px; border-radius: 50% ; position: absolute; left: 0; top: -20px; border: 10px solid #beddfa; 
+    z-index: -1;}
+.contlist .intro p{text-align: justify; line-height: 2.5em; margin-bottom: 50px;}
+.contlist table{width: 1176px; border: 1px solid #beddfa; text-align: center;  margin-bottom: 150px;}
+.contlist thead{background: #beddfa; }
+.contlist th{padding: 10px 50px; }
+.contlist td{padding: 5px 0; border: 1px solid #beddfa;}
+.contlist dl{margin-bottom: 50px;}
+

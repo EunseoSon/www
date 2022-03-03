@@ -1,0 +1,15 @@
+body{background: url(../../member/images/member_bg.jpg) no-repeat center center; background-size: cover;}
+div#wrap{width:500px; margin: 0 auto; margin-top: 200px; background: #fff; padding: 30px; margin-bottom: 100px;  padding-bottom: 50px;  font-family: 'Noto Sans KR';}
+h1 a.logo{display: block; width: 286px; height: 65px; margin: 0 auto; background: url(../../common/images/header_logo2.png) no-repeat; 
+    text-indent: -999px; font-size: 0; color: #fff;}
+
+input.find_input.find_name, input.find_input.find_id, select#hp1.find_input, input#hp2.find_input, input#hp3.find_input{width: 30%; background: #ddd; border: 0; border-radius: 2px; padding: 10px;}
+input.find_input.find_name, input.find_input.find_id{margin-bottom: 10px; width:480px;}
+input.find{padding: 10px 15px; background: #1460ad; color: #fff; border: 0; margin-top: 10px; width: 100%;}
+select#hp1.find_input{width: 22%;}
+
+#title p{ margin: 20px 0; text-align: center;}
+ul.go{margin-top: 50px; text-align: center; color: #555;}
+ul.go li{line-height: 2rem;}
+ul.go li a{color: #1462ad;}
+ul.go{margin-top: 50px; text-align: center;}

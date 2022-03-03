@@ -1,0 +1,22 @@
+body{background: url(../../member/images/member_bg.jpg) no-repeat center center; background-size: cover; font-family: 'Noto Sans KR';}
+#content{width: 800px; margin: 0 auto; margin-top: 200px; background: #fff; padding: 50px 10px; margin-bottom: 100px;  padding-bottom: 50px;}
+h1 a{display: block; width: 286px; height: 65px; margin: 0 auto; background: url(../../common/images/header_logo2.png) no-repeat; 
+    text-indent: -999px; font-size: 0; color: #fff;}
+
+form{width: 90%; margin: 0 5%;  margin-bottom: 10px; padding: 20px 0; }
+#id_pw_input ul li{width: auto; margin: 0 auto; font-size: 20px;}
+#id_pw_input ul li:first-child label{margin: 9px; margin-left: 129px;}
+#id_pw_input ul li:nth-child(2) label{margin-left: 120px;}
+#id_pw_input ul li:first-child input{width: 50%; background: #ddd; border: 0; border-radius: 2px; padding: 10px;}
+#id_pw_input ul li:nth-child(2) input{width: 50%; background: #ddd; border: 0; border-radius: 2px; padding: 10px;}
+#id_pw_input ul li{padding: 10px; margin: 0 auto;}
+#id_pw_input ul li:nth-child(4),#id_pw_input ul li:nth-child(5){text-align: center;padding: 0; line-height:2rem;}
+#id_pw_input ul li:nth-child(4){margin-top: 50px;}
+#id_pw_input ul li #login_button{width: 120px; margin: 0 auto;}
+#id_pw_input ul li #login_button input{padding: 10px 30px; background: #1460ad; color: #fff; border: 0; font-size: 20px;}
+
+.join_btn{color: #1460ad;}
+.join_btn:hover{color: #ccc;}
+#id_pw_input ul li:nth-child(5) a{color: #1460ad;}
+#id_pw_input ul li:nth-child(5) a:hover{color: #ccc;}
+#id_pw_input ul li:nth-child(5) a:first-child::after{content: '|'; margin: 0 10px 0 13px; color: #333;}

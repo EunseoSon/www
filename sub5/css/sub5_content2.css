@@ -1,0 +1,19 @@
+#content h2{margin-bottom: 100px;}
+#content h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 50px;}
+#content h4{margin-bottom: 20px;}
+#content ol{list-style: decimal;}
+
+
+
+.con1{position: relative;}
+.con1 span::before{content: '01'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+.con1 li{padding-bottom: 50px; text-align: justify; margin-left: 20px;}
+.con1 p{color: #666;}
+
+.con2{position: relative; margin-bottom: 150px;}
+.con2 span::before{content: '02'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+.con2 .ethics_list li{padding-bottom: 50px; text-align: justify; margin-left: 20px;}
+.con2 .inner_list li{padding-bottom: 3px; color: #666; text-align: justify;}
+.con2 .inner_list li::before{content: '-'; padding-right: 10px;}

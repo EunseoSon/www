@@ -1,0 +1,149 @@
+/* 비주얼 영역 */
+.visual{width: 2000px; height:900px; overflow: hidden;  position: relative; top: 0; left: 50%; margin-left: -1000px;}
+.visual img{animation: ani 30s linear infinite;}
+@keyframes ani {
+from {}
+to {transform: scale(1.5);}
+}
+.gallery{overflow:hidden; width: 100%; position: relative;}
+.gallery ul li{list-style:none; }
+.gallery .link1,.gallery .link2,.gallery .link3,.gallery .link4,.gallery .link5{display:none}
+.gallery .visual_text{position: absolute; left: 500px; top: 400px; text-shadow:3px 3px 5px rgb(0,0,0,.2);}
+.gallery .visual_text p.title{font-size: 40px; color: #fff; text-align: left; line-height: 1.2em;}
+.gallery .visual_text p.sub_t {font-size: 16px; text-align: left;}
+.dock{width:330px; position:absolute; left:920px; top:850px;}
+.dock span.mbutton{ margin-right:15px; cursor:pointer; display:block; float:left; width:12px; height:12px; background: #fff; border-radius: 6px; transition: all .5s;}
+.dock .ps{ margin-right:15px; margin-top: -2px; cursor:pointer; display:block; float:left; width:24px; height:24px; background:url(../images/stop.png)no-repeat}
+.visual .btn{font-size: 50px; position: absolute;  top:440px; cursor:pointer; color: #fff;}
+.btnLeft{left:400px; text-shadow:3px 3px 5px rgb(0,0,0,.2);}
+.btnRight{right:400px; text-shadow:3px 3px 5px rgb(0,0,0,.2);}
+img{border:0; vertical-align:top;}
+
+
+
+
+/* 본문 콘텐츠 영역 */
+#content h3{font-family: 'Poppins medium'; font-size: 50px;}
+#content .subtitle{font-family: 'Noto Sans KR medium'; font-size: 16px;}
+#content{width: 1200px; margin: 0 auto;}
+
+
+
+
+
+#content .quickmenu{position:relative; left:50%; width:2000px; 
+    margin-left:-1000px;}
+#content .quickmenu .quick_inner{width: 1200px; margin: 0 auto; position: relative;}
+#content .quickmenu .bg_text{display: block; position: absolute;  color: #beddfa; font-family: 'Poppins'; font-size: 72px;
+    font-weight: bold; top: -80px; left: 50px; z-index: -10;}
+#content .quickmenu ul{margin: 175px 0 0 110px; padding: 10px 5px; overflow: hidden;}
+#content .quickmenu li a{width: 223px; height: 223px; float: left; display: block;
+    border-radius: 10px; background: #fff; box-shadow: 0 0 5px 3px #ccc; margin-right: 25px; 
+    text-align: center; font-family: 'Noto Sans KR medium'; font-size: 24px; color: #666;    transition: all .5s;}
+#content .quickmenu li .icon{margin: 40px 70px 20px;}
+#content .quickmenu li .icon_h{display: none;}
+#content .quick_inner li:hover a{background: #4f87bb; color: #fff;}
+#content .quick_inner li:hover .icon{display: none; }
+#content .quick_inner li:hover .icon_h{display: block; margin: 40px 70px 20px;}
+
+
+
+
+#content .journal{overflow: hidden; position: relative; height: 555px; left:50%; 
+    width:2000px; margin-left:-1000px; padding-top: 185px;}
+#content .journal .journal_inner{width: 1200px; margin: 0 auto; position: relative;}
+#content .journal .title_j{line-height: 2em; color: #fff; position: absolute; 
+    top:90px; left: 432px; z-index: 80;}
+#content .journal .wrap_text_n_btn{background: url(../images/bg_journal.jpg) no-repeat; border-radius: 10px; 
+    position: relative; left: 215px; height: 555px; color: #fff; width: 1200px;}
+#content .wrap_text_n_btn dl{position: relative; top: 230px; 
+    left: 215px;}
+#content .wrap_text_n_btn dt{font-family: 'Poppins'; font-size: 24px; 
+    font-weight: bold; padding-bottom: 20px;}
+#content .wrap_text_n_btn dd{line-height: 1.5em; 
+    font-family: 'Noto Sans KR'; margin-bottom: 20px;}
+#content .journal li a{position: absolute; top:96px; left: 97px;}
+#content .journal .btn a{background: #4f87bb; border-radius: 10px; 
+    position: relative; left: 215px; top: 255px;
+    font-family: 'Noto Sans KR';  font-size: 18px; 
+    text-align: center; color: #fff; padding: 10px 40px; transition: all .5s;}
+#content .journal .btn a:last-child{margin: 65px;}
+#content .journal .btn a:hover{background: #beddfa; color: #666; font-weight: bold;}
+#content .journal .slider_btn {position: absolute; left: 520px; top: 237px;}
+#content .journal .slider_btn a{padding: 2px 8px; border: 1px solid #666;
+    border-radius: 50%; text-align: center;}
+
+
+
+
+
+#content .activities{height: 820px; position:relative; left:50%; 
+    width:2000px; margin-left:-1000px;}
+#content .a_inner{width: 1200px; height: 820px; margin: 0 auto; 
+    background: url(../images/bg_activities1.jpg) no-repeat;}
+#content .activities .title_activities{position: absolute; padding: 160px 0 80px 0; line-height: 2em;}
+#content .activities a{position: absolute; left: 700px; top: 180px;}
+#content li:hover  .circle{
+    display: block;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    width: 376px;
+    height: 376px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    animation: lateral 6s linear infinite;}
+@keyframes lateral {
+    from{transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+#content li:hover .circle::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 100px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #fff;}
+#content .activities dl{padding-top: 80px; text-align: right; font-family: 'Noto Sans KR'; 
+    position: relative; left: 200px;}
+#content .activities dt{font-size: 24px; font-weight: bold; padding-bottom: 20px;}
+#content .activities dd{line-height: 22px;}
+#content .activities .slider_btn{position: absolute; right: 505px; top: 100px;}
+
+
+
+
+#content .notice{position:relative; left:50%; width:2000px; margin-left:-1000px;}
+#content .notice_inner{width: 1200px; height: 555px; margin: 0 auto;
+    background: url(../images/bg_notice.jpg) no-repeat; position: relative; right: 215px;
+    border-radius: 10px;}
+#content .notice_inner .more{font-size: 22px; color: #beddfa; 
+    position: absolute; left: 880px; top: 100px;}
+#content .notice h3, a{color: #fff; font-family: 'Poppins', 'Noto Sans KR'; }
+#content .notice_inner h3{text-align: right; padding: 80px 80px 0 0;}
+#content .notice_inner ul{margin: 25px 80px 100px 600px; }
+#content .notice_inner li{padding-bottom: 24px; overflow: hidden;}
+#content .notice_inner li:hover a{color: #beddfa; }
+#content .notice_inner span{float: right;}
+
+
+
+
+
+
+#content .support {margin: 100px 0;}
+#content .support_inner{width: 2000px; height: 500px; position: relative; top: 0;
+    left: 50%; margin-left: -1000px; 
+    background:url(../images/support_img.jpg) no-repeat; 
+    background-attachment: fixed; overflow: hidden; }
+#content .support h3, p{font-family: 'Poppins', 'Noto Sans KR'; text-align: center; 
+    color: #fff;}
+#content .support h3{margin-top: 100px;}
+
+#content .support p{margin: 20px 0 40px;}
+#content .support .btn{width: 1200px; margin: 0 auto;}
+#content .support .btn a{background: #4f87bb; border-radius: 10px; font-size: 18px; transition: all .5s;
+    text-align: center; color: #fff; padding: 10px 40px; position: relative; left: 430px; margin-right: 40px; }
+#content .support .btn a:hover{background: #beddfa; color: #666; font-weight: bold;}

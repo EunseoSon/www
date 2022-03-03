@@ -1,0 +1,182 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학회조직-조직도</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content3.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+    
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼 이미지">
+            <h3>학회조직</h3>
+            <p>학회의 조직 구성을 소개합니다.</p>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">조직도</a></li>
+                <li><a href="./sub2_2.html">위원회</a></li>
+                <li class="current"><a href="./sub2_3.html">분과</a></li>
+                <li><a href="./sub2_4.html">부설기관</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 학회조직 &gt; <strong>분과</strong>
+                </div>
+                <h2>분과</h2>
+                <p class="subtitle">한국천문학회의 분과를 소개합니다</p>
+            </div>
+
+            <div class="content_area">
+                <div class="pop_gallery">
+                    <div class="bg_box"></div>
+                    
+                     <ul>
+                         <li>
+                                <a href="#" class="openBtn">
+                                    <i class="fas fa-wave-square"></i>
+                                    <h3>광학천문분과</h3>
+                                </a>
+                    
+                                <div class="open_popup">
+                                    <p>광학천문분과는 가시광선, 자와선, 적외선 관측을 바탕으로 하는 천문우주 연구 및 교육을 진작하기 위한 활동을 하는 분과입니다.</p>
+                                    <p>현재 18명의 위원과 1명의 고문을 두고 있습니다.</p>
+                                    <a class="closeBtn" href="#">닫기</a>
+                                </div>
+                         </li>
+                         <li>
+                            <a href="#" class="openBtn">
+                                <i class="fas fa-satellite-dish"></i>
+                                <h3>우주전파분과</h3>
+                            </a>
+            
+                            <div class="open_popup">
+                                <ul>
+                                    <li>
+                                        <dl>
+                                            <dt>1. 조직 및 회원</dt>
+                                            <dd>우주전파 분과는 16인으로 구성된 운영위원회를 포함하여 60여명의 회원이 참여하고 있다. 현재 분과 위원장과 총무간사는 김기태(천문연) 회원과 권우진(천문연) 회원이 맡고 있으며 분과 운영위원회는 구본철(서울대), 김성은(세종대), 박용선(서울대), 손정주(교원대), 이정은(경희대), 정애리(연세대), 조정연(충남대), 강현우, 김종수, 민영철, 변도영, 봉수찬, 이창원, 정태현 (이상 천문연)회원으로 구성되어 있다. 2008년부터 민영기 회원을 분과 고문으로 모시고 있다.</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt>2. 분과관련기관</dt>
+                                            <dd>분과의 유관기관으로는 한국천문연구원 한국우주전파관측망(KVN), 대덕전파천문대(TRAO), 태양전파연구팀과 서울대 전파천문대(SRAO), 연세대 천문대, 국토지리정보원, 전파연구소 등이 있다. 각 기관은 현황 및 발전계획을 정기적으로 분과 운영위원회에 보고하고 있으며 그 내용은 연 2회 발행되는 뉴스레터를 통해 회원들과 공유하고 있다.</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                                <a class="closeBtn" href="#">닫기</a>
+                            </div>            
+                         </li>
+                     </ul>
+                     <ul>
+                        <li>
+                            <a href="#" class="openBtn">
+                                <i class="fas fa-satellite-dish"></i>
+                                <h3>태양우주환경분과</h3>
+                            </a>
+                
+                            <div class="open_popup">
+                                <p>태양우주환경분과는 국내 우주환경관련 연구자 모임인 우주환경연구회를 기반으로 1999년 설립되어 
+                                    국내 우주환경 관련 기관 간 협력과 우주환경 연구 및 관련기술 진흥을 위해 지속적인 활동을 전개하고 있다.</p>
+                                
+                                <a class="closeBtn" href="#">닫기</a>
+                            </div>
+                        </li>
+                         <li>
+                            <a href="#" class="openBtn">
+                                <i class="fas fa-female"></i>
+                                <h3>여성분과</h3>
+                            </a>
+                
+                            <div class="open_popup">
+                                <p>여성분과는 천문학 관련 분야 여성의 역할 증대, 저변 확대 및 상호교류에 관심을 갖는 한국천문학회 회원으로 구성하며, 
+                                    2016년 4월 창립되었다. 현재 2기 운영위원회가 활동 중에 있다.</p>
+                                <a class="closeBtn" href="#">닫기</a>
+                            </div>
+                        </li>
+                     </ul>
+                     <ul>
+                        <li>
+                                <a href="#" class="openBtn">
+                                    <i class="fas fa-globe-americas"></i>
+                                    <h3>행성계과학분과</h3>
+                                </a>
+                    
+                                <div class="open_popup">
+                                    <p>광학천문분과는 가시광선, 자와선, 적외선 관측을 바탕으로 하는 천문우주 연구 및 교육을 진작하기 위한 활동을 하는 분과입니다.</p>
+                                    <p>현재 18명의 위원과 1명의 고문을 두고 있습니다.</p>
+                                    <a class="closeBtn" href="#">닫기</a>
+                                </div>
+                        </li>
+                        <li>
+                                <a href="#" class="openBtn">
+                                    <i class="fas fa-users"></i>
+                                    <h3>젊은천문학자모임</h3>
+                                </a>
+                    
+                                <div class="open_popup">
+                                    <p>광학천문분과는 가시광선, 자와선, 적외선 관측을 바탕으로 하는 천문우주 연구 및 교육을 진작하기 위한 활동을 하는 분과입니다.</p>
+                                    <p>현재 18명의 위원과 1명의 고문을 두고 있습니다.</p>
+                                    <a class="closeBtn" href="#">닫기</a>
+                                </div>
+                        </li>
+                     </ul>
+                     <ul>
+                        <li>
+                                <a href="#" class="openBtn">
+                                    <i class="fas fa-satellite"></i>
+                                    <h3>천문관측기기분과</h3>
+                                </a>
+                    
+                                <div class="open_popup">
+                                    <p>광학천문분과는 가시광선, 자와선, 적외선 관측을 바탕으로 하는 천문우주 연구 및 교육을 진작하기 위한 활동을 하는 분과입니다.</p>
+                                    <p>현재 18명의 위원과 1명의 고문을 두고 있습니다.</p>
+                                    <a class="closeBtn" href="#">닫기</a>
+                                </div>
+                        </li>
+                        <li>
+                                <a href="#" class="openBtn">
+                                    <i class="fas fa-user-friends"></i>
+                                    <h3>한림회</h3>
+                                </a>
+                    
+                                <div class="open_popup">
+                                    <p>광학천문분과는 가시광선, 자와선, 적외선 관측을 바탕으로 하는 천문우주 연구 및 교육을 진작하기 위한 활동을 하는 분과입니다.</p>
+                                    <p>현재 18명의 위원과 1명의 고문을 두고 있습니다.</p>
+                                    <a class="closeBtn" href="#">닫기</a>
+                                </div>
+                        </li>
+                     </ul>
+                 
+                 </div>   
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="./js/layer_popup.js"></script>
+</body>
+</html>

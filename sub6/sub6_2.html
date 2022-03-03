@@ -1,0 +1,53 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>천문학회의일정</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>커뮤니티</h3>
+            <p>한국천문학회의 커뮤니티</p>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="../greet/list.php">학회소식</a></li>
+                <li class="current"><a href="./sub6_2.html">천문학회의일정</a></li>
+                <li><a href="../download/list.php">자료실</a></li>
+                <li><a href="./sub6_4.html">관련기관</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 회원공간 &gt; <strong>천문학회의일정</strong>
+                </div>
+                <h2>천문학회의일정</h2>
+            </div>
+
+            <div class="content_area">
+               
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

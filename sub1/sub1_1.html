@@ -1,0 +1,102 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학회소개-학회안내</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0f7dc4534fbe1d7c917b72b73d11d440"></script>
+    <script src="./js/map.js"></script>
+    
+</head>
+<body>
+    
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>학회소개</h3>
+            <p>천문학회를 소개합니다.</p>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub1_1.html">학회안내</a></li>
+                <li><a href="./sub1_2.html">학회연혁</a></li>
+                <li><a href="./sub1_3.html">임원명단</a></li>
+                <li><a href="./sub1_4.html">정관·규정</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 학회소개 &gt; <strong>학회안내</strong>
+                </div>
+                <h2>학회안내</h2>
+            </div>
+
+            <div class="content_area">
+
+                <div class="greetings">
+                    <span></span>
+                    <h3>학회장 인사</h3>
+                    <div class="topBox">
+                        <img src="./images/content1/pic.jpg" alt="학회장 사진">
+                        <div class="text_01">
+                            <p class="subtitle">한국천문학회를 방문해주셔서 감사합니다.</p>
+                            <div class="wrap_text01">
+                                <p>우리 학회는 1965년에 설립된 이래, 국내 유일의 천문학 분야 학술단체로서 천문학 발전을 위해 
+                                    노력하고 있으며, 동시에 대한민국을 대표하는 기초과학 학술단체로서 그 소임과 역할을 해 오고 
+                                    있습니다. 최근 국제 공동연구 등 다양한 연구 활동을 통해 한국 천문학을 세계적인 수준으로 
+                                    발전시켰으며, 또한 활발한 대국민 홍보 활동을 통해 <span>천문학의 대중화</span>에 기여하고 있습니다.</p> <br>
+                                <p>이런 노력 및 성과에 기반하여, 우리 한국천문학회는 시대적 요구에 부응하면서 더욱 발전하도록 
+                                    매진해 나가겠습니다. 제자리에 머물러 있지 않고, 한국 천문학의 미래를 견인할 학문적 토대를 
+                                    만들면서, 동시에 대중과 더 활발하게 소통하는 학회가 되도록 노력하겠습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text_02">
+                        <p>한국천문학회는 특히 전 세계 천문학자들이 모여 최신 연구 결과를 논의하는 <span>제31차 국제천문연맹 총회</span> (International Astronomical Union, 
+                            General Assembly, IAUGA2021)를 2021년 <span>부산에서 개최</span>하게 되었습니다. 주관기관으로써 본 학술대회를 성공적으로 마무리하여, 기초과학 
+                            강국으로써 대한민국의 국격을 높임과 동시에, 국제 사회에서 한국 천문학의 위상을 높이는 계기를 만들겠습니다.</p><br>
+                        <p> 한국천문학회의 발전은 천문학을 이해하고 사랑하는 회원과 국민 여러분의 성원과 지지가 있을 때만 가능합니다. <br> 
+                            천문학을 아끼는 마음으로 관심 어린 조언과 적극적인 참여를 부탁드립니다.</p>
+                        <p>
+                            2020. 1. 2 <br> 한국천문학회 제30대 회장 &nbsp;  <strong>류 동 수</strong></p>
+                    </div>
+                </div>
+
+
+                <!-- 수정해야함  -->
+                <div class="map">          
+                    <span></span>
+                    <h3>오시는 길</h3>
+                    <div id="map" style="width: 1200px; height: 450px;"></div>
+                    <p>주소 : 대전광역시 유성구 대덕대로 776</p>
+                    <p><i class="fas fa-subway"></i> 전철 : 대전역 1호선에서 정부청사역에서 하차 -> 둔산경찰서 정류장에서 301버스 승차 뒤 한국 천문 연구원 정류장에서 하차</p>
+                    <p><i class="fas fa-subway"></i> 버스 : 대전역 정류장에서 705버스 승차 -> 둔산경찰서 정류장에서 301버스 승차 뒤 한국 천문 연구원 정류장에서 하차</p>
+                </div>
+
+            </div>
+
+        </article>
+
+        <? include "../common/sub_footer.html" ?>
+
+</body>
+</html>

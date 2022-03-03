@@ -1,0 +1,29 @@
+/* sub1 공통 - 비주얼 / 서브네비 / 타이틀 영역 */
+
+
+.visual{width: 2000px; height: 500px; position: relative; left: 50%; margin-left: -1000px; top: 0; 
+    font-family: 'Noto Sans KR';}
+.visual h3{position: absolute; text-align: center; color: #fff; font-size: 40px; top: 250px; width: 100%; 
+    font-weight: 400;}
+.visual p{font-size: 16px; position: absolute; text-align: center; color: #fff; top: 300px; width: 100%; 
+    font-weight: 300;}
+.visual img{width: auto; height: 500px; }
+
+
+
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; font-family: 'Noto Sans KR'; font-size: 20px; 
+    font-weight: 300;}
+.sub_menu ul{overflow: hidden; width: 800px; position: absolute; border-radius: 10px 10px 0 0; bottom: 0px; left: 183px;}
+.sub_menu li{float: left; width: 200px;}
+.sub_menu li a{display: block;  padding: 25px 0; text-align: center; background: #1462ad;  
+    color: #fff; transition: all .5s;}
+.sub_menu li a:hover{background: #fff; font-weight: bold; color: #333;}
+.sub_menu .current a{background: #fff; font-weight: bold; color: #333;}
+
+
+
+#content{width: 1200px; margin: 0 auto; font-family: 'Noto Sans KR'; font-weight: 400; line-height: 2em;}
+#content .title_area{position: relative; padding: 200px 0 0 0;}
+#content .line_map {position: absolute; right: 0; top: 50px; font-size: 16px; color: #666;}
+#content h2{text-align: center; font-size: 60px;  font-weight: 500;}
+#content .subtitle{font-size: 20px; color: #1462ad; font-weight: 400; }

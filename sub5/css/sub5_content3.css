@@ -1,0 +1,13 @@
+#content h2{margin-bottom: 100px;}
+#content h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 50px;}
+#content h4{margin-bottom: 20px;}
+#content ol{list-style: decimal;}
+
+.content_area .pay{width: 800px; height: 50px; font-size: 20px; background: #f3f3f3; margin-left: 200px; margin-bottom: 50px;
+    border-radius: 10px;}
+.content_area .pay p{text-align: center; padding-top: 10px;}
+table{width: 800px; margin-left: 200px; border: 1px solid #beddfa; text-align: center;  margin-bottom: 150px;}
+thead{background: #beddfa; }
+th{padding: 10px 50px; }
+td{padding: 20px 0; border: 1px solid #beddfa;}
+dl{margin-bottom: 50px;}

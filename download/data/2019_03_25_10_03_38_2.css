@@ -1,0 +1,55 @@
+.main{width: 1100px; margin: 0 auto}
+
+#content{width: 100%}
+#content .contentTop {background: url(../images/contentTopBg.jpg) left top repeat-x}
+#content .contentTop .contentTopInner{width: 1100px; height: 650px; margin: 0 auto; position: relative; overflow: hidden;}
+#content .contentTop .contentTopInner p{text-align: center; font-size: 25px; color: #fff; font-weight: bold}
+#content .contentTop .contentTopInner p:first-of-type{margin: 103px 0 42px 0}
+#content .contentTop .contentTopInner p:nth-of-type(2) strong{font-size: 60px}
+#content .contentTop .contentTopInner p:last-of-type{text-align: left; margin-left: 323px; z-index: 100}
+#content .contentTop .contentTopInner p strong{color:#fcec00}
+#content .contentTop .contentTopInner .statistics{margin: 32px 306px 42px 316px}
+#content .contentTop .contentTopInner .cityBomb{position: absolute; right: 250px; bottom: 104px}
+
+#content .news {background: url(../images/newsBg.jpg) left top}
+#content .news .newsInner { width: 1100px; margin: 0 auto; position: relative; overflow: hidden;}
+#content .news .newsTitle{margin: 133px 0 20px 50px}
+#content .news .newsTitle a{font-family: 'Nanum Gothic', sans-serif; font-size: 30px; letter-spacing: -1px}
+#content .news ul{margin: 0 50px 147px 50px; overflow: hidden}
+#content .news ul li{background: #fff; float: left; margin-right: 44px}
+#content .news ul li:last-child{margin-right: 0}
+#content .news ul li img{margin-bottom: 30px}
+#content .news ul li dl{padding: 0 7px}
+#content .news ul li dl dt{font-weight: bold; margin-bottom: 9px}
+#content .news ul li dl dt span{color: red; text-decoration: underline; display: block; margin-bottom: -5px}
+#content .news ul li dl dt a{margin: 7px 0 10px 0; font-size: 18px; line-height: 1.5em; letter-spacing: -2px}
+#content .news .newsMore{position: absolute; right:50px; top:155px}
+
+#content .participationArea{overflow: hidden}
+#content .participationArea .campaignArea{width: 50%; height: 360px; float: left; background-size: cover;
+    background: url(../images/joinCampaign.jpg) 80% 50% no-repeat}
+#content .participationArea .donateArea{width: 50%; height: 360px; float: right; background: #0077c4}
+#content .participationArea .campaignArea .copyText{float: right; color: #000}
+#content .participationArea .donateArea .copyText{float: left; color:#fff}
+#content .participationArea section .copyText{text-align: center; width: 600px; padding: 60px 0}
+#content .participationArea section .copyText p{font-size: 14px; font-weight: 300}
+#content .participationArea section .copyText p:nth-of-type(2){font-size: 35px; font-weight: bold; margin:30px 0; letter-spacing: -6px; line-height: 1.2em; text-shadow: 1px 1px 0 rgba(255,255,255,.5)}
+#content .participationArea .donateArea .copyText p:nth-of-type(2){text-shadow: none}
+#content .participationArea section .copyText p:last-of-type{margin: 30px 0}
+#content .participationArea section .copyText .btn{padding: 13px 0; min-width: 150px; color: #fff; transition: background-color 500ms linear}
+#content .participationArea .campaignArea .copyText .btn {background: red}
+#content .participationArea .campaignArea .copyText .btn:hover {background: #00b9b1}
+#content .participationArea .donateArea .copyText .btn {background: #000}
+#content .participationArea .donateArea .copyText .btn:hover {background: #666}
+
+#content .quickMenu {}
+#content .quickMenu .quickMenuInner{width: 1100px; margin: 0 auto}
+#content .quickMenu ul {overflow: hidden; margin:115px 82px}
+#content .quickMenu ul li{float: left;  padding: 0 90px; 
+    background: url(../images/line.jpg) right center no-repeat }
+#content .quickMenu ul li a{display: block; margin-bottom: 20px}
+#content .quickMenu ul li p{color: #666; line-height: 2em}
+#content .quickMenu ul li:first-of-type{padding-left: 0;}
+#content .quickMenu ul li:last-of-type{padding-right: 0; background: none}
+
+

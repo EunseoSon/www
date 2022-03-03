@@ -1,0 +1,98 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원공간-가입안내</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="#">
+            <h3>회원공간</h3>
+            <p>회원분들께 드리는 안내입니다.</p>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub5_1.html">가입안내</a></li>
+                <li><a href="./sub5_2.html">내 정보</a></li>
+                <li><a href="./sub5_3.html">회비납부</a></li>
+                <li><a href="./sub5_4.html">논문게재료납부</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 회원공간 &gt; <strong>가입안내</strong>
+                </div>
+                <h2>가입안내</h2>
+                <p class="subtitle">사단법인 한국천문학회 회원가입 안내</p>
+            </div>
+
+            <div class="content_area">
+                <p class="infor">학회의 입회절차는 먼저, 인터넷을 통해 회원가입을 해야 하며 동시에 소정의 양식을 다운받아 작성하시어 정회원 2명의 sign 및 도장을 받아 학회사무국으로 
+                    우편 혹은 PDF 파일로 보내시면 됩니다. 이후 이사회의 인준을 거쳐 회원의 자격을 취득하게 됩니다. 인터넷을 통해 가입한 경우 온라인준회원의 자격으로 홈페이지의 
+                    이용 등을 바로 사용하실 수 있습니다.</p>
+                
+                <div class="con1">
+                    <span></span>
+                    <h3>회원구분</h3>
+                    <p class="subtitle">한국천문학회에서는 정관에서 정한 아래의 회원구분과 자격이 있습니다.</p>
+                    <ol>
+                        <li>정회원 : 정회원은 천문학에 관심을 갖는 개인으로서 대학에서 천문학 또는 그에 관련된 과정을 수학한 자 또는 이사회에서 동등한 자격을 가진 자라고 인정된 자</li>
+                        <li>준회원 : 준회원은 대학의 학부생 또는 이사회에서 동등한 자격을 가진 자라고 인정된 자</li>
+                        <li>명예회원 : 명예회원은 천문학에 공적이 현저하거나 본 학회의 목적달성에 큰 공적이 있는 자로서 정회원의 권리를 부여한다.</li>
+                        <li>특별회원 :특별회원은 본 학회에 찬조 및 기부행위를 한 개인 또는 단체, 또는 동등한 기여를 하였다고 이사회에서 인정된 개인 또는 단체</li>
+                        <li>기관회원 : 기관회원은 본 학회의 목적에 찬동하고 사업에 기여하는 학술 및 연구단체 또는 기관</li>
+                    </ol>
+                </div>
+                <div class="con2">
+                    <span></span>
+                    <h3>회원의 권리와 의무</h3>
+                    <p class="subtitle">회원님의 입회가 승인되면 한국 천문학회의 정관에 따라 다음 각 호의 의무와 권리를 갖게 됩니다.</p>
+                    <ol>
+                        <li>
+                            정관 및 의결 사항의 준수
+                            <p>한국천문학회 정관, 규정, 세칙은 천문학회 홈페이지(http://www.kas.org)와 매년 발행되는 가을학회보에 있으니 참고하시기 바랍니다.</p>
+                        </li>
+                        <li>회비 납부의 의무
+                            <p>연회비는 대학원생 포함 모든 학생의 경우 3만원이며 그 외 회원은 7만원입니다. (학회 임원 연회비 별도 공지) 최초 가입시에는 1만원의 입회비가 있습니다. 또한 학회의 원활한 운영을 위한 기부금 납부도 가능합니다. 모든 회비는 한국천문학회 홈페이지의 전자결재 시스템을 통해 납부 가능합니다.
+                                기관회원의 연회비는 7만원이며, 특별회원 연회비는 매년 초 공문으로 청구됩니다. 회장은 회비를 2년 이상 납부하지 않은 회원의 권리를 정지시킬 수 있습니다.</p>
+                        </li>
+                        <li>회원들에게 주어지는 혜택
+                            <ul class="inner_list">
+                                <li>한국천문학회지(JKAS, PKAS)의 무료 구독</li>
+                                <li>한국천문학회 정기 학술대회 발표(포스터, 구두) 지원 자격</li>
+                                <li>천문학회를 통해 공지되는 학회나 공고를 포함한 다양한 뉴스 구독 </li>
+                            </ul>
+                        </li>
+                        <li>학회의 운영에 참여할 수 있는 권리 및 선거권과 피선거권
+                            <p>정회원은 총회에 참석하여 의사 결정에 관여할 수 있습니다. 학회 규정에 의하면 선거권은 최근 2년간 정회원의 의무를 다한 회원에 부여됩니다. 이에 따라 회원님이 금년과 내년에 회비를 납부하시면 내년부터 선거권을 갖게 됩니다. 또한 2년 이상 정회원 자격을 보유하게 되면 이사로 선출될 수 있으며, 10년 이상 정회원 자격을 보유하고, 2년 이상 이사로 봉사하게 되면 회장으로 선출될 수 있는 피선거권을 갖게 됩니다.
+                                회원님께서 정회원으로서의 권리와 의무를 적극적으로 행사하셔서 회원님의 학술 활동에 큰 발전이 있으시길 바라오며, 나아가 한국천문학회의 발전에도 크게 기여해주시기를 바랍니다. 학회 운영과 관련된 궁금증이 있으시거나 도움이 필요하시면 학회사무국으로 문의해 주시기 바랍니다. 성심껏 도와드리겠습니다.</p>
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

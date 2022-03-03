@@ -1,0 +1,21 @@
+body{background: url(../images/member_bg.jpg) no-repeat center center; background-size: cover; font-family: 'Noto Sans KR';}
+#content{width: 1000px; margin: 0 auto; margin-top: 200px; background: #fff; padding: 50px 10px; margin-bottom: 100px;}
+
+
+#content h1 a{display: block; background: url(../../common/images/header_logo2.png) no-repeat; width: 286px; height: 65px; text-indent: -999px; font-size: 0; 
+    margin: 0 auto;}
+#content h2{font-size: 30px; text-align: left; margin-left: 50px ;}
+
+table{width: 90%; margin: 0 5%; border: 1px solid #ddd;}
+th,td{padding: 10px}
+th{width: 20%}
+td{width: 80%}
+input, select{padding: 5px; border-radius: 2px;
+      font-size: 1.5em; border: 0; background: #e3e3e3}
+input#hp2.hp{width: 30%;}
+input#hp3.hp{width: 30%;}
+table tr:last-child td{text-align: center; padding: 50px 0}
+table tr:first{padding-top: 50px;}
+
+.join_btn{ padding: 10px 15px; background: #1460ad; color: #fff; margin-right: 10px;}
+.cancle_btn{ padding: 10px 15px; background: #ddd;  margin-left: 10px;}

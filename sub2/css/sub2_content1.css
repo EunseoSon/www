@@ -1,0 +1,33 @@
+#content h2{margin-bottom: 20px;}
+#content h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 20px;}
+#content h4{margin-bottom: 20px;}
+#content ol{list-style: decimal;}
+#content a{cursor: default;}
+.title_area .subtitle{text-align: center; margin-bottom: 70px;}
+
+.organization{overflow: hidden; margin: 80px 0 150px 25px;} 
+
+.area1{margin-bottom: 100px;}
+.area1 dl dt{position: relative; }
+.area1 dl dt a{display: block; font-size: 20px; color: #fff; text-align: center;  width: 150px; padding: 20px 0 20px 0;  background: #a0bfdc; border-radius: 10px; position: relative; left: 500px; margin-bottom: 100px;}
+.area1 dl .line::before{content: ''; display: block; width: 1px; height: 230px; background-color: #ccc;  position: absolute; left: 575px; top: 70px; }
+.area1 dl .auditor{position: relative;}
+.area1 dl .auditor .line2::before{content: ''; display: block; width: 230px; height: 1px; background-color: #ccc;  position: absolute; left: 575px; top: -50px; }
+.area1 dl .auditor a{display: block; font-size: 20px; color: #fff; text-align: center;  width: 150px; padding: 20px 0 20px 0;  background: #1462ad; border-radius: 10px; position: absolute; left: 800px; top: -85px;}
+.area1 dl .director{position: relative;}
+.area1 dl .director .line3::before{content: ''; display: block; width: 230px; height: 1px; background-color: #ccc;  position: absolute; left: 575px; top: 70px; }
+.area1 dl .director a{display: block; font-size: 20px; color: #fff; text-align: center;  width: 150px; padding: 20px 0 20px 0;  background: #1462ad; border-radius: 10px; position: relative; left: 800px; top: 30px; margin-bottom: 50px;}
+.area1 dl .vice_chairman a{display: block; font-size: 20px; color: #fff; text-align: center;  width: 150px; padding: 20px 0 20px 0;  background: #a0bfdc; border-radius: 10px; position: relative; left: 500px; margin-bottom: 50px;}
+
+.area2{margin-left: 100px; position: relative;}
+.area2 .line_v1::before{content: ''; display: block; width: 1px; height: 100px; position: absolute; background: #ccc; left: 475px;  top: -100px;}
+.area2 .line_h::before{content: ''; display: block; width: 800px; height: 1px; position: absolute; background: #ccc; left: 80px;  top: -50px;}
+.area2 .line_v2::before{content: ''; display: block; width: 1px; height: 50px; position: absolute; background: #ccc; left: 80px;  top: -50px;}
+.area2 .line_v3::before{content: ''; display: block; width: 1px; height: 50px; position: absolute; background: #ccc; left: 275px;  top: -50px;}
+.area2 .line_v4::before{content: ''; display: block; width: 1px; height: 50px; position: absolute; background: #ccc; left: 670px;  top: -50px;}
+.area2 .line_v5::before{content: ''; display: block; width: 1px; height: 50px; position: absolute; background: #ccc; left: 880px;  top: -50px;}
+
+.area2 ul li{display: block; float: left; width: 150px; margin-right: 50px;}
+.area2 dl dt a{display: block; text-align: center; font-size: 20px; color: #fff; text-align: center;  width: 150px; padding: 20px 0 20px 0;  background: #beddfa; background-image: conic-gradient(from 45deg, #a0bfdc 0% ,#beddfa 100%); border-radius: 10px; }
+.area2 dl dd{background: #f3f3f3; padding: 10px 0; text-align: center;  margin: 10px 0; font-size: 14px; }
+.area2 dl dd:first-child{}

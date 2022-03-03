@@ -1,0 +1,14 @@
+
+#wrap{width: 1100px; margin: 0 auto; border: 1px solid red}
+
+#headerArea{}
+#headerArea h1{}
+#headerArea #gnb{}
+
+.main{}
+
+#content{}
+#content .notice{}
+
+#footerArea{}
+#footerArea .footerLogo{}

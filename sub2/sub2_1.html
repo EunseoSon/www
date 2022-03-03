@@ -1,0 +1,145 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학회조직-조직도</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼 이미지">
+            <h3>학회조직</h3>
+            <p>학회의 조직 구성을 소개합니다.</p>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub2_1.html">조직도</a></li>
+                <li><a href="./sub2_2.html">위원회</a></li>
+                <li><a href="./sub2_3.html">분과</a></li>
+                <li><a href="./sub2_4.html">부설기관</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 학회조직 &gt; <strong>조직도</strong>
+                </div>
+                <h2>조직도</h2>
+                <p class="subtitle">한국천문학회의 조직도</p>
+            </div>
+
+            <div class="content_area">
+                <div class="organization">
+                    
+                    <!-- 팝업 처리하기 -->
+                    <div class="area1">
+                        <dl>
+                            <dt class="chairman">
+                                <span class="line"></span>
+                                <a href="#">회장</a>
+                            </dt>
+                            <dd class="auditor">
+                                <span class="line2"></span>
+                                <a href="#">감사</a>
+                            </dd>
+                            <dd class="director">
+                                <span class="line3"></span>
+                                <a href="#">이사</a>
+                            </dd>
+                            <dd class="vice_chairman">
+                                <a href="#">부회장</a>
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <div class="area2">
+                        <span class="line_v1"></span>
+                        <span class="line_h"></span>
+                        <span class="line_v2"></span>
+                        <span class="line_v3"></span>
+                        <span class="line_v4"></span>
+                        <span class="line_v5"></span>
+                        <ul>
+                            <li class="secretariat">
+                                <dl>
+                                    <dt>
+                                        <a href="#">사무국</a>
+                                    </dt>
+                                    <dd><a href="#">총무이사</a></dd>
+                                    <dd><a href="#">재무이사</a></dd>
+                                    <dd><a href="#">사무국정</a></dd>
+                                </dl>
+                            </li>
+                            <li class="permanent_committee">
+                                <dl>
+                                    <dt><a href="#">상설위원회</a></dt>
+                                    <dd>JKAS편집위원회</dd>
+                                    <dd>PKAS편집위원회</dd>
+                                    <dd>교육및홍보위원회</dd>
+                                    <dd>포상위원회</dd>
+                                    <dd>한국IAU운영위원회</dd>
+                                    <dd>학술위원회</dd>
+                                    <dd>올림피아드위원회</dd>
+                                    <dd>윤리위원회</dd>
+                                    <dd>학회발전위원회</dd>
+                                </dl>
+                            </li>
+                            <li class="subcommittee">
+                                <dl>
+                                    <dt><a href="#">분과</a></dt>
+                                    <dd>광학천문분과</dd>
+                                    <dd>우주전파분과</dd>
+                                    <dd>태양우주환경분과</dd>
+                                    <dd>행성계과학분과</dd>
+                                    <dd>젊은 천문학자 모임</dd>
+                                    <dd>한림회</dd>
+                                    <dd>여성분과</dd>
+                                    <dd>천문관측기기분과</dd>
+                                </dl>
+                            </li>
+                            <li class="non_p_c">
+                                <dl>
+                                    <dt><a href="#">비상설위원회</a></dt>
+                                    <dd>용어심의위원회</dd>
+                                    <dd>우주관측위원회</dd>
+                                    <dd>연구윤리심의위원회</dd>
+                                    <dd>규정개정위원회</dd>
+                                    <dd>선거관리위원회</dd>
+                                    <dd>IAUGA2021</dd>
+                                    <dd>천문학백과사전위원회</dd>
+                                </dl>
+                            </li>
+                            <li class="affiliated_research_institute">
+                                <dl>
+                                    <dt>
+                                        <a href="#">부설연구소</a>
+                                    </dt>
+                                    <dd>소남연구소</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

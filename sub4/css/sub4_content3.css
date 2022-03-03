@@ -1,0 +1,36 @@
+#content h2{margin-bottom: 100px;}
+#content h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 50px;}
+#content h4{margin-bottom: 20px;}
+#content ol{list-style: decimal;}
+
+.slideMenu{margin-bottom: 100px;}
+.slideMenu ul{width: 470px; overflow: hidden; padding: 20px; margin-left: 361px;}
+.slideMenu li{width: 100px; height: 100px; background: #fff; border-radius: 50%; box-shadow: 3px 3px 10px 3px rgb(204, 204, 204); overflow: hidden;}
+.slideMenu li a{ font-family: 'Noto Sans KR'; color: #333; text-align: center; padding-left: 12px; line-height: 5em; font-size: 20px;}
+.slideMenu li:hover{ background: #fff; background-image: conic-gradient(from 45deg,  #a0bfdc 0% ,#beddfa 100%); font-weight: bold; }
+.slideMenu li:hover a{color: #fff;}
+.slideMenu li:first-child{float: left; margin-right: 230px;}
+
+
+.short_info{width: 1200px; height: 455px; background: #f9f9f9; border-radius: 10px; position: relative; box-shadow: 3px 3px 10px #ccc; margin-bottom: 100px;}
+.short_info .bookcover{position: relative; left: 50px; top: 50px; }
+.short_info .logo{position: absolute; right: 50px; bottom: 0;}
+.short_info dl{position: absolute; left: 331px; top: 50px; font-family: 'Poppins';}
+.short_info .title{ font-size: 30px; padding-bottom: 50px; line-height: 1.5em;}
+.short_info dd{text-align: justify; padding-right: 50px; font-family: 'Noto Sans KR';}
+.short_info a{position: absolute; bottom: 50px; left: 331px; background: #fff; padding: 5px 20px; border: 1px solid #ccc; border-radius: 20px; transition: all .5s;}
+.short_info a:hover{border: none; background-image: conic-gradient(from 45deg,  #a0bfdc 0% ,#beddfa 100%); color: #fff; font-weight: bold;  box-shadow: 3px 3px 10px #ccc;}
+
+
+.con1{position: relative;}
+.con1 span::before{content: '01'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+.con1 li{padding-bottom: 50px; text-align: justify; margin-left: 20px;}
+.con1 p{color: #666;}
+
+.con2{position: relative; margin-bottom: 150px;}
+.con2 span::before{content: '02'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+.con2 .ethics_list li{padding-bottom: 50px; text-align: justify; margin-left: 20px;}
+.con2 .inner_list li{padding-bottom: 3px; color: #666; text-align: justify;}
+.con2 .inner_list li::before{content: '-'; padding-right: 10px;}

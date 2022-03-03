@@ -1,0 +1,21 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 학회소개 내용 */
+.title_area h2{margin-bottom: 100px;}
+
+
+.greetings{position: relative; width: 1200px; margin: 0 auto; text-align: justify; margin-bottom: 200px;}
+.greetings span::before{content: '01'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+z-index: -1;}
+.greetings h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 70px;}
+.greetings .topBox{overflow: hidden; width: 100%;}
+.greetings .topBox img{float: left; padding-bottom: 50px;}
+.greetings .topBox .text_01{width: 870px; float: right; }
+.greetings .topBox .text_01 .subtitle{padding-bottom: 50px;}
+.greetings p span{color: #1462ad; font-weight: bold;}
+.greetings .text_02 p:last-child{text-align: right;}
+.greetings strong{font-size: 30px;}
+
+
+.map{position: relative; width: 1200px; margin: 0 auto; margin-bottom: 200px;}
+.map span::before{content: '02'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+.map h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 70px;}

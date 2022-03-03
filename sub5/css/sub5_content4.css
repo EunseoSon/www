@@ -1,0 +1,8 @@
+#content h2{margin-bottom: 100px;}
+#content h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 50px;}
+#content h4{margin-bottom: 20px;}
+#content ol{list-style: decimal;}
+
+.content_area a{display: block; font-size: 20px; width: 200px; height: 50px; padding-left: 20px; padding-top: 20px; background: #beddfa;
+    border-radius: 10px; margin-left: 490px;}
+.content_area img{margin-left: 135px; margin-bottom: 150px;}

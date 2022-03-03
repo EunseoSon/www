@@ -1,0 +1,46 @@
+#content h2{margin-bottom: 20px;}
+#content h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 70px;}
+
+.title_area .subtitle{margin-bottom: 55px; text-align: center;}
+
+.slideMenu{margin-bottom: 100px;}
+.slideMenu ul{width: 470px; overflow: hidden; padding: 20px; margin-left: 361px;}
+.slideMenu li{width: 100px; height: 100px; background: #fff;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px 3px rgb(204, 204, 204); overflow: hidden;}
+.slideMenu li a{ font-family: 'Noto Sans KR'; color: #333; 
+    text-align: center; padding-left: 12px; line-height: 5em; font-size: 20px;}
+.slideMenu li:hover{ background: #fff;
+    background-image: conic-gradient(from 45deg,  #a0bfdc 0% ,#beddfa 100%);
+    font-weight: bold; }
+.slideMenu li:hover a{color: #fff;}
+
+.slideMenu li:first-child{float: left; margin-right: 230px;}
+
+.con1{ margin-bottom: 200px; position: relative;}
+.con1 span::before{content: '01'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+.con1 h3{padding-bottom: 70px;}
+.con1 .list_btn{position: absolute; left: 205px; top: 0px; padding: 2px 20px;
+    background: #eee; border-radius: 10px;}
+.con1 li{margin-bottom: 87px; position: relative;}
+.con1 dl{position: relative;}
+.con1 li .president{position: absolute; left: 63px; bottom: 50px;}
+.con1 dl dt{position: absolute; left: 319px; top: 80px; font-weight: bold; color: #1462ad;}
+.con1 dt strong{font-size: 48px; position: relative; left: -5px;}
+.con1 dl dd{width: 1200px; height: 230px; background: #f9f9f9; border-radius: 10px;  box-shadow: 3px 3px 10px #ccc;}
+.con1 dd p{position: absolute; left: 529px; top: 88px;}
+.con1 dd p:last-child{top: 115px;}
+.con1 .logo{position: absolute; top: 16px; left: 842px;}
+
+
+.con2{position: relative; width: 1200px; margin: 0 auto;}
+.con2 .list_btn{position: absolute; left: 205px; top: 0px; padding: 2px 20px;
+    background: #eee; border-radius: 10px;}
+.con2 .table{margin-bottom: 200px;}
+.con2 span::before{content: '02'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+.con2 table{width: 1176px; border: 1px solid #beddfa; text-align: center;}
+.con2 thead{background: #beddfa; }
+.con2 th{padding: 10px 50px; }
+.con2 td{padding: 5px 0; border: 1px solid #beddfa;}

@@ -1,0 +1,303 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국천문학회</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+    
+    <script src="./common/js/prefixfree.min.js"></script>
+    <script src="./mainjs/mainpopup.js"></script>
+    
+</head>
+<body>
+        <? include "./common/main_header.html" ?>
+        
+        <div class="visual">
+                <div class="gallery">
+                        <ul>
+                            <li class="link1"><a href="#"><img src="./images/visual_01.jpg" alt='비주얼 이미지' >
+                                   <div class="visual_text">
+                                        <p class="title">KAS,<br>The Korean Astronomical Society</p>
+                                        <p class="sub_t">한국천문학의 지대한 발전을 위해 계속해서 정진해나가겠습니다.
+                                   </div>
+                            </a></li>
+                            <li class="link2"><a href="#" ><img src="./images/visual_02.jpg" alt='비주얼 이미지' >
+                                <div class="visual_text">
+                                    <p class="title">KAS,<br>The Korean Astronomical Society</p>
+                                    <p class="sub_t">한국천문학의 지대한 발전을 위해 계속해서 정진해나가겠습니다.
+                               </div></a></li>
+                            <li class="link3"><a href="#" ><img src="./images/visual_03.jpg" alt='비주얼 이미지' >
+                                <div class="visual_text">
+                                    <p class="title">KAS,<br>The Korean Astronomical Society</p>
+                                    <p class="sub_t">한국천문학의 지대한 발전을 위해 계속해서 정진해나가겠습니다.
+                               </div></a></li>
+                            <li class="link4"><a href="#" ><img src="./images/visual_04.jpg" alt='비주얼 이미지' >
+                                <div class="visual_text">
+                                    <p class="title">KAS,<br>The Korean Astronomical Society</p>
+                                    <p class="sub_t">한국천문학의 지대한 발전을 위해 계속해서 정진해나가겠습니다.
+                               </div></a></li>
+                         
+                        </ul>
+                </div>
+               
+                <div class="dock">
+                    <span class="mbutton  btn1" ></span>
+                    <span class="mbutton  btn2" ></span>
+                    <span class="mbutton  btn3" ></span>
+                    <span class="mbutton  btn4" ></span>
+                    <span class="ps"></span>
+                </div>
+
+                <span class="btn btnLeft"><i class="fas fa-chevron-left"></i></span>
+                <span class="btn btnRight"><i class="fas fa-chevron-right"></i></span>
+        </div>
+
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+
+            <div class="quickmenu">
+                <div class="quick_inner">
+                    <h3 class="hidden">바로가기</h3>
+                    <div class="bg_text">
+                        <span>WELCOME TO</span>
+                        <span>KAS</span>
+                    </div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img class="icon" src="./images/icon_01.png" alt="학술대회 바로가기">
+                                    <img class="icon_h" src="./images/white_icon_07.png" alt="학술대회 바로가기">
+                                    학술대회
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon" src="./images/icon_02.png" alt="회비납부 바로가기">
+                                    <img class="icon_h" src="./images/white_icon_09.png" alt="회비납부 바로가기">
+                                    회비납부
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="icon" src="./images/icon_03.png" alt="논문투고 바로가기">
+                                    <img class="icon_h" src="./images/white_icon_11.png" alt="논문투고 바로가기">
+                                    논문투고
+                                </a>
+                            </li>
+                         
+                            <li>
+                                <a href="#">
+                                    <img class="icon" src="./images/icon_04.png" alt="논문검색 바로가기">
+                                    <img class="icon_h" src="./images/white_icon_13.png" alt="논문검색 바로가기">
+                                    논문검색
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="journal">
+                <div class="journal_inner">
+                    <div class="title_j">
+                        <span class="subtitle">한국천문학회 학회지 소개</span>
+                        <h3>OUR JOURNAL</h3>
+                    </div>
+                        <ul>
+                            <li>
+                                <a href=""><img src="./images/bookcover_bkas.png" alt="bkas표지"></a>
+                                <div class="wrap_text_n_btn">
+                                    <dl>
+                                        <dt>BKAS</dt>
+                                        <dd>한국천문학회보는, <br>
+                                            학술대회의 발표 초록, 기사, 학계 동향 및 소식 등을 소개합니다. <br>
+                                            매년 2회 학술대회 시 배포합니다.</dd>
+                                    </dl>
+                                    <div class="btn">
+                                        <a href="#">바로가기</a>
+                                        <a href="#">논문규정</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href=""><img src="./images/bookcover_jkas.png" alt="jkas표지"></a>
+                                <div class="wrap_text_n_btn">
+                                    <dl>
+                                        <dt>JKAS</dt>
+                                        <dd>The Journal of the Korean Astronomical Society (JKAS),
+                                            a bimonthly publication of the Korean Astronomical Society.
+                                            We aim at promoting the original work of researchers in all branches of astronomy and astrophysics.</dd>
+                                    </dl>
+                                    <div class="btn">
+                                        <a href="#">바로가기</a>
+                                        <a href="#">논문규정</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href=""><img src="./images/bookcover_pkas.png" alt="pkas표지"></a>
+                                <div class="wrap_text_n_btn">
+                                    <dl>
+                                        <dt>PKAS</dt>
+                                        <dd>Publications of the Korean Astronomical Society, PKAS, 
+                                            An international scientific journal publishing papers in all fields of astronomy and astrophysics 
+                                            (theoretical, observational, and instrumental) aiming at advancing the knowledge in those fields.</dd>
+                                    </dl>
+                                    <div class="btn">
+                                        <a href="#">바로가기</a>
+                                        <a href="#">논문규정</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="slider_btn">
+                            <a class="slider_prev" href="#">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            &nbsp;
+                            <a class="slider_before" href="#">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="activities">
+                <div class="a_inner">
+                    <div class="title_activities">
+                        <span class="subtitle">한국천문학회 활동</span>
+                        <h3>OUR ACTIVITIES</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/mainplanet_01.png" alt="국내학술대회 사진">
+                                        <span class="circle"></span>
+                                    </a>
+                                    <dl>
+                                        <dt>국내학술대회</dt>
+                                        <dd>국내에서 한국천문학회가 정기적으로 여는 학술대회 입니다. <br>
+                                            국내의 여러 학자들과 새로운 지식과 사실들을 나누는 장입니다.</dd>
+                                    </dl>
+                                </li>
+                                <!-- <li>
+                                    <dl>
+                                        <dt>국제학술대회</dt>
+                                        <dd>한국천문학회가 참여한 국제 학술대회 입니다.
+                                            국제적인 교류의 장을 통해 천문학의 대중화에 힘쓰겠습니다.</dd>
+                                    </dl>
+                                    <a href="#"><img src="./images/mainplanet_03.png" alt="국제학술대회 사진"></a>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>천문학백과사전</dt>
+                                        <dd>천문학백과사전은 한국천문학회와 네이버가 함께 만들었습니다.
+                                            2019년까지 517개 표제어가 1차적으로 완성되었습니다. 2021년까지 2차 백과사전 작업이 진행 중 입니다. </dd>
+                                    </dl>
+                                    <a href="#"><img src="./images/mainplanet_02.png" alt="천문학백과사전 사진"></a>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>동네과학자사업</dt>
+                                        <dd>한국천문학회에서는 우리 국민의 과학적 품성 함양에 기여하기 위하여 청소년과 성인들을 대상으로 
+                                            천문학 대중강연을 활성화하는 ‘동네과학자’ 사업을 2019년부터 새롭게 추진하고 있습니다.</dd>
+                                    </dl>
+                                    <a href="#"><img src="./images/mainplanet_04.png" alt="동네과학자사업 포스터"></a>
+                                </li> -->
+                            </ul>
+                            <div class="slider_btn">
+                                <a class="slider_prev" href="#">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                &nbsp;
+                                <a class="slider_before" href="#">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="notice">
+                
+               <div class="notice_inner">
+                   <a class="more" href="./greet/list.php"><i class="fas fa-plus-circle"></i></a>
+                    <h3>NOTICE</h3>
+                    <? include "./lib/func.php"; ?>
+                    <ul>
+                        <? latest_article("greet, 5, 30"); ?>
+                    </ul>
+                    
+                            <!-- <ul>
+                                <li><a href="#">[한국천문연구원] 2021 학생연수원 채용공고
+                                    <span>2021-11-03</span></a></li>
+                                <li><a href="#">KASI - ASC Millimetron Online Workshop
+                                    <span>2021-11-03</span></a></li>
+                                <li><a href="#">Avi Loeb-이형목 교수 대담행사 안내
+                                    <span>2021-10-28</span></a></li>
+                                <li><a href="#">공주대학교 지구과학교육과 천문학 교수 채용 안내
+                                    <span>2021-10-26</span></a></li>
+                                <li><a href="#">2022년 신임임원 당선 공지
+                                    <span>2021-10-26</span></a></li>
+                                <li><a href="#">숭실대학교 우주물질연구소 전산전문가 채용
+                                    <span>2021-10-26</span></a></li>
+                            </ul> -->
+               </div>
+            </div>
+            <div class="support">
+                <div class="support_inner">
+                    <h3>SUPPORT</h3>
+                    <div class="wrap_s">
+                        <p>한국천문학회의 발전은, <br>
+                            천문학을 이해하고 사랑하는 회원과 국민 여러분의 성원과 지지가 있을 때만 가능합니다. <br>
+                            천문학을 아끼는 마음으로 관심 어린 조언과 적극적인 참여를 부탁드립니다.</p>
+                        <div class="btn">
+                            <a href="#">후원하기</a>
+                            <a href="#">가입하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <? include "./common/main_footer.html" ?>
+    </div>
+
+    <!-- 공지사항 팝업 -->
+    <div id="showimage" style="z-index:99;position:absolute;width:322px;left:100px;top:150px;">
+        <script>
+            function closeWin(){
+                var chk = document.getElementById('Notice')
+                if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                }
+            }
+            if ( getCookie( "Notice" ) == "done" ) {
+                hidebox();
+            }
+        </script>
+        <div>
+            <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+        </div>
+        <div style="font-size:12px;text-align:center;color:#666;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+            <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+    </div>
+    
+   
+
+</body>
+</html>

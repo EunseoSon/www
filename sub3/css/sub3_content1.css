@@ -1,0 +1,24 @@
+#content h2{margin-bottom: 20px;}
+#content h3{font-size: 40px; font-weight: 500; margin-left: 25px; margin-bottom: 20px;}
+#content h4{margin-bottom: 20px;}
+#content ol{list-style: decimal;}
+.title_area .subtitle{text-align: center; margin-bottom: 70px;}
+
+.content_area .info p{text-align: center;}
+
+.con1{position: relative; margin-top: 150px;}
+.con1 span::before{content: '01'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+.con1 .subtitle{margin-left: 30px;  text-align: left;}
+.con1 ol{margin-left: 30px; margin-top: 20px; margin-bottom: 150px;}
+.con1 li{text-align: justify; margin-left: 20px; line-height: 3em;}
+.con1 p{color: #666;}
+
+.con2{position: relative; margin-bottom: 150px;}
+.con2 span::before{content: '02'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+.con2 .subtitle{margin-left: 30px;  text-align: left; margin-bottom: 50px;}
+.con2 ol li{padding-bottom: 50px; text-align: justify; margin-left: 50px;}
+.con2 ol li p{color: #666;}
+.con2 .inner_list li{padding-bottom: 3px; color: #666; text-align: justify;}
+.con2 .inner_list li::before{content: '-'; padding-right: 10px;}

@@ -1,0 +1,44 @@
+
+#content h2{margin-bottom: 100px;}
+#content h3{font-size: 40px; font-weight: 500; margin-left: 25px;}
+#content h4{font-size: 20px; margin-bottom: 50px; margin-left: 25px; margin-top: 70px;}
+dl{margin-left: 25px; margin-bottom: 20px;}
+ol{list-style-type: decimal; margin-left: 30px;}
+.subtitle{margin: 20px 0 50px 25px;}
+.bold{font-weight: bold;}
+
+
+
+
+.slideMenu{margin-bottom: 100px;}
+.slideMenu ul{width: 470px; overflow: hidden; padding: 20px; margin-left: 361px;}
+.slideMenu li{width: 100px; height: 100px; background: #fff;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px 3px rgb(204, 204, 204); overflow: hidden;}
+.slideMenu li a{ font-family: 'Noto Sans KR'; color: #333; 
+    text-align: center; padding-left: 12px; line-height: 5em; font-size: 20px;}
+.slideMenu li:hover{ background: #fff;
+    background-image: conic-gradient(from 45deg,  #a0bfdc 0% ,#beddfa 100%);
+    font-weight: bold; }
+.slideMenu li:hover a{color: #fff;}
+.slideMenu li:first-child{float: left; margin-right: 230px;}
+
+
+
+.con1{position: relative; margin-bottom: 200px;}
+.con1 span::before{content: '01'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+
+
+.con2{position: relative; margin-bottom: 200px;}
+.con2 span::before{content: '02'; font-size: 48px; font-weight: bold; position: absolute; left: 0; top: -20px; color: #beddfa; 
+    z-index: -1;}
+
+
+
+
+
+
+
+
+

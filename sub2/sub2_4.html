@@ -1,0 +1,75 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학회조직-조직도</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content4.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼 이미지">
+            <h3>학회조직</h3>
+            <p>학회의 조직 구성을 소개합니다.</p>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">조직도</a></li>
+                <li><a href="./sub2_2.html">위원회</a></li>
+                <li><a href="./sub2_3.html">분과</a></li>
+                <li class="current"><a href="./sub2_4.html">부설기관</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 학회조직 &gt; <strong>부설기관</strong>
+                </div>
+                <h2>부설기관</h2>
+                <p class="subtitle">소남천문학사연구소</p>
+            </div>
+
+            <div class="content_area">
+                <h3>소남천문학사연구소</h3>
+                
+                <img src="./images/content4/image.jpg" alt="">
+                <div class="text">
+                    <p>
+                       우리 민족은 고대로부터 천문학을 사랑해 왔으며,
+                        옛 왕조들은 하늘의 과학인 천문학을 국가의 최고 학문의 하나로 중시해왔다.
+                        비록 우리 선조가 남긴 많은 천문 유산 중 오늘까지 남아있는 것은 극히 일부분이지만,
+                        여전히 많은 미개봉 유물과 기록이 우리의 진지한 연구를 기다리고 있다.
+                    </p>
+                    <p>
+                        과학사라는 학문이 그 나라 과학문화의 정체성을 파악하고
+                        미래 과학의 진로를 바로 잡는 방향타라고 할 때, 이제 온 국민이 우리의 과학사에 대해
+                        깊은 관심을 갖고 과학적 전통의 연속성을 이루어나아가야 할 때이다.
+                    </p>
+                    <p>召南 天文學史硏究所는 고 소남 유경로 선생님의 유지를 받들어 천문학사와 고천문학을
+                        연구하고 후진을 양성하는 산실이 되고자 2005년 9월 23일에 설립되었다.
+                        2007년 10월에는 한국천문학회의 부설연구소가 되었다. 이 소중한 학문 분야를 꽃피우고자 하는 관련 학자들의 연구의 중심지가 되고 있다.</p>
+                    
+                        <a href="http://ikha.or.kr/" target="_blank">연구소 사이트 바로가기</a>
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>
