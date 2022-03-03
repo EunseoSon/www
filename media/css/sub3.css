@@ -1,0 +1,37 @@
+/* 와이드 pc  */
+.trailers{}
+.trailers h3{font-size: 2.5rem;}
+.trailers .subtitle{margin-bottom: 50px;}
+.trailers ul{display: grid; grid-template-columns:1fr 1fr 1fr; grid-gap: 20px;}
+.trailers ul li{margin-bottom: 20px; width: 100%;}
+.trailers ul li a{width: 100%; height: 100%;}
+.trailers ul li img{width: 100%;}
+.trailers ul li dl{width: 90%; background: #fff; color: #333; padding: 5%;}
+.trailers ul li dl dt{padding-top: 5px; font-size: 1.25rem;}
+.trailers ul li dl dd{font-family: 'Noto Sans KR'; font-weight: 200; padding: 5px 0;}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   .trailers ul{ grid-template-columns:1fr 1fr; }
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content{background: none;}
+   #content{background-image: url(../images/bg_pattern_white.png); color: #333;}
+   .trailers ul li:nth-child(5){display: none;}
+   .trailers ul li:nth-child(6){display: none;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   .trailers ul{grid-template-columns:1fr;}
+   .trailers ul li:nth-child(4){display: none;}
+
+}

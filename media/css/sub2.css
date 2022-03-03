@@ -1,0 +1,55 @@
+/* 와이드 pc  */
+#content h3{font-size: 2rem; margin-bottom: 10px;}
+#content h3::before{content: '';}
+#content h3::after{content: '';}
+#content ul li{border: 1px solid transparent;}
+#content ul li:hover{border: 1px solid #faf7dc;}
+.subtitle{}
+.char_img{width: 100%;}
+.char_name{font-weight: bold; font-size: 1.5rem;}
+.char_info{font-family: 'Noto Sans KR'; font-weight: 200; font-size: 1.1rem; text-align: justify;}
+
+.protagonist{margin: 50px 0 150px;}
+.protagonist ul{display: grid; grid-template-columns:1fr 1fr; grid-gap: 50px;}
+.protagonist ul li{padding: 5%;}
+.protagonist {}
+
+.hyrule_warriors{margin-bottom: 150px;}
+.hyrule_warriors ul{display: grid;  grid-template-columns:1fr 1fr 1fr 1fr; grid-gap: 50px;}
+.hyrule_warriors ul li{padding: 5%;}
+.hyrule_warriors 
+
+.antagonist{margin-bottom: 150px;}
+.antagonist ul{display: grid; grid-template-columns:1fr 1fr; grid-gap: 50px;}
+.antagonist ul li{padding: 5%;}
+.antagonist ul li .text{}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    .hyrule_warriors ul{display: grid; grid-template-columns: 1fr 1fr;}
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content{background: none;}
+    #content{background-image: url(../images/bg_pattern_white.png); color: #333;}
+    .char_info{text-align: center;}
+    
+    .protagonist ul{grid-template-columns: 1fr;}
+    .hyrule_warriors ul{grid-template-columns: 1fr;}
+    .antagonist ul{grid-template-columns: 1fr;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    .antagonist{display: none;}
+
+}

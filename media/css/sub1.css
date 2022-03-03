@@ -1,0 +1,31 @@
+/* 와이드 pc  */
+#content{width: 90%; margin: 0 auto;  margin-bottom: 100px; background: rgba(0, 0,0,.5); text-align: center; color: #fff; 
+    border-radius: 20px; padding: 5%;}
+
+.text1{overflow: hidden; font-size: 18px}
+.text1 h2{font-size: 2.5rem;}
+.text1 .subtitle{margin-bottom: 50px;}
+.text1 img{width: 50%; float: left; margin-right: 5%;}
+.text1 .text_in{text-align: left; margin-bottom: 20px; font-family: 'Noto Sans KR'; font-weight: 200;}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content{background: none;}
+    #content{background-image: url(../images/bg_pattern_white.png); color: #333;}
+    .text1 img{width: 100%; float: none; margin-right: 0; margin-bottom: 20px;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+}

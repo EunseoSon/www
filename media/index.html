@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="kr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Legend of Zelda</title>
+<link rel="shortcut icon"  type="image/x-icon"  href="favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/layout.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/video.js"></script>
+<script src="js/img_change.js"></script>
+
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+</head>
+
+<body>
+   <div id="skipNav">
+	   <a href="#content">본문바로가기</a>
+	   <a href="#gnb">네비게이션바로가기</a>
+   </div>
+
+   <div id="wrap">
+	<div class="videoBox">
+		<img class="title_logo" src="./images/title_logo_x2.png" alt="logo">
+		    <video autoplay loop muted id="videoBG"></video>
+			<img src="images/back.jpg" alt="#" id="imgBG">
+			
+			<a class="down" href="#">SCROLL DOWN</a>
+	</div>
+	
+	<header id="headerArea">
+	  <div class="headerInner">
+		  <h1><a href="#">Zelda header logo</a></h1>
+		  <a class="menuOpen" href="#"><span class="hidden">메뉴여닫기</span><i class="fas fa-bars"></i></a>
+		  <nav id="gnb">
+			<h2 class="hidden">네비게이션영역</h2> 
+		  	 <ul>
+				<li><h3><a href="./sub1.html">Story</a></h3></li>
+				<li><h3><a href="./sub2.html">Characters</a></h3></li>
+				<li><h3><a href="./sub3.html">Trailers</a></h3></li>
+				<li><h3><a href="./sub4.html">Gallery</a></h3></li>
+		  	 </ul>
+		  </nav>
+		</div>
+	</header>
+	
+	<article id="content">
+		<h2 class="hidden">본문콘텐츠영역</h2>
+			<div class="story">
+				<h3 class="hidden">story</h3>
+				<div class="text">
+					<p class="title">Background<br>Story</p>
+					<p class="main_t">Link awakens from a deep slumber and a mysterious voice guides him to discover what has become of the ruined Kingdom of Hyrule Kingdom.
+						Link leaves the Shrine of Resurrection, runs up to the ledge and looks out at the ruins of the kingdom Hyrule.
+					</p>
+					<div class="more_btn">
+						<a class="more" href="#">more</a>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="characters">
+				<h3 class="title">characters</h3>
+				
+				<div class="charbox">
+					<img src="./images/char01_x2.png" alt="link image">
+				</div>
+				
+				<div class="gallery-thumbs">
+                    <dl class="text">
+						<dt class="title">Link</dt>
+						<dd class="main_t">They are chosen by the Golden Goddesses to protect the land from evil whenever deemed necessary. </dd>
+					</dl>
+					<ul>
+						<li>
+							<a href="#"><img src="./images/char_icon1.png" alt=""></a>
+						</li>
+						<li>
+							<a href="#"><img src="./images/char_icon2.png" alt=""></a>
+						</li>
+						<li>
+							<a href="#"><img src="./images/char_icon3.png" alt=""></a>
+						</li>
+						<li>
+							<a href="#"><img src="./images/char_icon4.png" alt=""></a>
+						</li>
+						<li>
+							<a href="#"><img src="./images/char_icon5.png" alt=""></a>
+						</li>
+						<li>
+							<a href="#"><img src="./images/char_icon6.png" alt=""></a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="trailers">
+				<div class="trailer_inner">
+					<h3 class="title">Trailers</h3>
+					<p class="main_t">Here are trailers containing the Legend of Zelda's in-game information.</p>
+					<div class="video_trailer">
+						<ul>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="gallery">
+				<div class="g_inner">
+					<h3 class="title">Gallery</h3>
+					<p class="main_t">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+					<div class="box1"><a href="#" class="img1"></a></div>
+					<div class="box2">
+						<div class="g_upper">
+							<a href="#" class="img2"></a>
+							<a href="#" class="img3"></a>
+						</div>
+						<div class="g_lower">
+							<a href="#" class="img4"></a>
+							<a href="#" class="img5"></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+	</article>
+	
+	<footer id="footerArea">
+		<a class="topMove" href="#">top</a>
+	   	<p>&copy; 2021 Nintendo. The Legend of Zelda, Wii U, <br>
+		and Nintendo Switch are trademarks of Nintendo.</p> 
+		<span>legend of zelda logo</span>
+	</footer>
+</div>		
+
+
+
+</body>
+</html>
