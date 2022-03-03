@@ -1,0 +1,39 @@
+.sub_menu li{width: 33.30%; float: left; text-align: center; line-height: 3rem;}
+.visual{ background: url(../../sub4/common/images/visual.jpg) left center no-repeat;}
+.title_area h2{margin-bottom: 50px;}
+
+#content h4{margin-bottom: 20px; }
+#content h3{margin-bottom: 20px;}
+#content .con{line-height: 2rem;}
+#content .content_area div{position: relative;}
+
+.tabs{margin-bottom: 100px;}
+.tabs ul{width: 300px; overflow: hidden; margin: 0 auto;  border-radius: 10px; box-shadow: 3px 3px 10px 3px rgb(204, 204, 204); position: relative;}
+.tabs ul li{width: 50%; overflow: hidden; float: left;}
+.tabs li a.tab{display: block; font-family: 'Noto Sans KR'; color: #333; text-align: center; line-height: 3.5rem; font-size: 20px;}
+
+.contlist{display: none;}
+
+.short_info{width: auto; height: 455px; background: #f9f9f9; border-radius: 10px; position: relative; box-shadow: 3px 3px 10px #ccc; margin-bottom: 100px;}
+.short_info .bookcover{position: relative; left: 50px; top: 50px; }
+.short_info .logo{position: absolute; right: 50px; bottom: 0;}
+.short_info dl{position: absolute; left: 331px; top: 50px; font-family: 'Poppins';}
+.short_info .title{ font-size: 30px; padding-bottom: 50px; line-height: 1.5em;}
+.short_info dd{text-align: justify; padding-right: 50px; line-height: 2rem;}
+.short_info a{position: absolute; bottom: 50px; left: 331px; background: #fff; padding: 5px 20px; border: 1px solid #ccc; border-radius: 20px;}
+
+.con1 li{padding-bottom: 50px; text-align: justify; margin-left: 20px;}
+.con1 p{color: #666;}
+
+.con2 .ethics_list li{padding-bottom: 50px; text-align: justify; margin-left: 20px;}
+.con2 .inner_list li{padding-bottom: 3px; color: #666; text-align: justify;}
+.con2 .inner_list li::before{content: '-'; padding-right: 10px;}
+
+@media screen and (max-width:1024px){
+    .short_info{width: auto; height: auto; background: #f9f9f9; border-radius: 10px; position: static; box-shadow: 3px 3px 10px #ccc; margin-bottom: 100px; overflow: hidden;}
+    .short_info .bookcover{position: static; width: 80%; margin: 10% ;}
+    .short_info dl{position: static; font-family: 'Poppins';}
+    .short_info .title{ font-size: 30px; line-height: 2.5rem;  padding:0 10% 10px;}
+    .short_info dd{text-align: justify; padding:0 10%; margin-bottom: 10%;}
+    .short_info a{position: static; display: block; width: 50%; background: #fff; margin: 10% auto; border: 1px solid #ccc; border-radius: 20px; text-align: center;}
+}

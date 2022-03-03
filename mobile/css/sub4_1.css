@@ -1,0 +1,10 @@
+.visual{ background: url(../../sub3/common/images/visual.jpg) center 70% no-repeat;}
+.sub_menu li{width: 50%; float: left; text-align: center; line-height: 3rem;}
+.subtitle{text-align: center; margin-bottom: 30px;}
+
+.content_area img{width: 100%;  margin-bottom: 30px;}
+.content_area .text{text-align: justify; line-height: 2rem;}
+.content_area .text + .text{margin:1rem 0 0;}
+
+.content_area .contact{background: #f9f9f9; border-radius: 10px; padding: 10%; margin-top: 2rem; border: 1px solid #ccc; text-align: center;}
+.content_area .contact strong{font-size: 1.2rem;}

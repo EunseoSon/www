@@ -1,0 +1,83 @@
+/* CSS Document */
+.visaul {}
+.visual .gallery{width: 100%; margin-top: 50px; background: #16191f; position: relative; }
+.visual .gallery ul{}
+.visaul .gallery li.link{position: relative;}
+.gallery .link1,.gallery .link2,.gallery .link3,.gallery .link4,.gallery .link5{display:none}
+.visual .gallery .link .visual_text{position: absolute; top: 200px; left: 0; color: #fff; margin-left: 1.2rem; text-shadow:3px 3px 5px rgb(0,0,0,.2);}
+.visual .gallery .link p:first-child{font-size: 1rem; font-weight: 700;}
+.visaul .gallery .link p:last-child{font-size: .8rem;}
+.visual .gallery ul li img{width: 100%;}
+.dock{width:330px; position:absolute; left:50%; top:90%; transform: translate(-20%, 0%);}
+.dock span.mbutton{ margin-right:15px; cursor:pointer; display:block; float:left; width:12px; height:12px; background: #fff; border-radius: 6px; transition: all .5s;}
+.dock .ps{ margin-right:15px; margin-top: -2px; cursor:pointer; display:block; float:left; width:24px; height:24px; background:url(../images/stop.png)no-repeat}
+.visual .btn{font-size: 20px; position: absolute;  top:90%; cursor:pointer; color: #fff;  transform: translate(0%, -30%);}
+.gallery .btnLeft{left: 20%;}
+.gallery .btnRight{left: 80%;}
+
+
+
+#content{margin: 0 5% 3rem; }
+#content h3{font-size:1.5rem; letter-spacing:-0.065rem; font-weight:700; margin:3rem 0 1rem;}
+#content .activities h3{margin-top:5rem}
+
+
+#content .quickmenu{margin:2rem 0; font-size: 1.125rem; letter-spacing:-0.045rem}
+#content .quickmenu ul{}
+#content .quickmenu ul::after{content:''; display: block; clear: both;}
+#content .quickmenu ul li{float:left; width: 22%; margin-left:4%; }
+#content .quickmenu ul li:first-child{margin-left:0;}
+#content .quickmenu ul li a{/*position:relative;*/ display: block; /*padding:65px 0 0;*/ text-align:center;}
+#content .quickmenu ul a::before{content:''; display: block; position:relative; padding-bottom:100%; border-radius:10px; box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.16); background-position:60% 60%; background-repeat:no-repeat; margin-bottom:5px;}
+#content .quickmenu ul a.icon1::before{background-image:url(../images/icon_01_2.png); background-size: 60% auto; background-position: center;}
+#content .quickmenu ul a.icon2::before{background-image:url(../images/icon_02_2.png); background-size: 60% auto; background-position: center;}
+#content .quickmenu ul a.icon3::before{background-image:url(../images/icon_03_2.png); background-size: 60% auto; background-position: center;}
+#content .quickmenu ul a.icon4::before{background-image:url(../images/icon_04_2.png); background-size: 60% auto;}
+
+/* #content .quickmenu ul li a::before,
+#content .quickmenu ul li a::after{content:''; position:absolute; left:0; top:0; display: block; width: 100%; height: 54px;}
+#content .quickmenu ul li a::before{border-radius:5px; box-shadow:5px 5px 10px 1px rgba(0,0,0,0.15);}
+#content .quickmenu ul li a::after{background-position:50% 50%; background-repeat:no-repeat;}
+#content .quickmenu ul li:nth-child(1) a::after{background-image:url(../images/icon_01_2.png); background-size: 80% auto;}
+#content .quickmenu ul li:nth-child(2) a::after{background-image:url(../images/icon_02_2.png); background-size: 80% auto;}
+#content .quickmenu ul li:nth-child(3) a::after{background-image:url(../images/icon_03_2.png); background-size: 80% auto;}
+#content .quickmenu ul li:nth-child(4) a::after{background-image:url(../images/icon_04_2.png); background-size: 80% auto;} */
+
+
+/* 학회소식 */
+#content .news{position:relative;}
+#content .news ul{}
+#content .news ul li{position:relative; padding:1rem; box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.16); border-radius:10px; overflow:hidden;}
+#content .news ul li + li{margin:1rem 0 0;}
+#content .news ul li a{display:block;}
+#content .news ul li img{float:left; width: 75px; height: auto;}
+#content .news ul li dl{position:absolute; top:50%; transform:translateY(-50%); margin-left:85px; margin-right:1rem;}
+#content .news ul li dl dt{font-size: 1.125rem; font-weight:700; height: 23px; line-height: 23px; white-space:nowrap; text-overflow: ellipsis;}
+#content .news ul li dl dd{font-size: .9rem; color:#777; margin:0.2rem 0 0;}
+#content .news a.more{display: block; width: auto; bottom:-1rem; box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.16); background: #f3f3f3; border-radius: 10px; text-align: center;
+    padding: 5px 0; margin-top: 10px;}
+
+
+/*학회지*/
+#content .journal{}
+#content .journal ul{}
+#content .journal ul li{position: relative; box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.16); margin-right:20px; border-radius:10px; overflow: hidden;}
+#content .journal ul li a{display: block;}
+#content .journal ul li img{float: left; width: 115px; height: auto;}
+#content .journal ul li dl{position:absolute; top:50%; transform:translateY(-50%); margin-left:130px; margin-right:1rem;}
+#content .journal ul li dl dt{font-size:1.125rem; font-weight:700;}
+#content .journal ul li dl dd{font-size: .9rem; margin:0.2rem 0 0; /*line-height: 1.6rem;*/}
+#content .journal .swiper-container-horizontal > .swiper-pagination-bullets{bottom:-30px}
+
+
+/*학회활동*/
+#content .activities{margin-bottom: 100px;}
+#content .activities ul{}
+#content .activities ul::after{content:''; display: block; clear: both;}
+#content .activities ul li{width: 170px; box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.16); margin-right:20px; border-radius:10px; overflow: hidden; float: left;}
+#content .activities ul li a{display: block;}
+#content .activities ul li img{width:100%;}
+#content .activities ul li dl{text-align: center; margin: .8rem 0; }
+#content .activities ul li dl dt{font-size:1.125rem; font-weight:700;}
+#content .activities ul li dl dd{font-size: .9rem; margin:0.2rem 0 0;}
+#content .activities .swiper-container-horizontal > .swiper-pagination-bullets{bottom:-30px}

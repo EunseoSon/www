@@ -1,0 +1,21 @@
+.wrap{position: relative;}
+
+.visual{height: 250px; position: relative;}
+.visual h3{position: absolute; left: 50%; top: 45%; color: #fff; font-size: 1.5rem; font-weight: 500; transform: translateX(-50%);}
+
+.sub_menu{position: relative;}
+.sub_menu ul{position: absolute; bottom: 0; width: 100%; height: 50px; background: #fff; overflow: hidden; }
+.sub_menu li{width: 50%; float: left; text-align: center; line-height: 3rem;}
+.sub_menu li a{display: block; background: #1462ad; color: #fff; transition: all .5s;}
+.sub_menu li a:hover{background: #fff; font-weight: bold; color: #333;}
+.sub_menu .current a{background: #fff; font-weight: bold; color: #333;}
+
+#content .line_map{text-align: right; font-size: .9rem;}
+#content .title_area h2{font-size: 2rem; text-align: center; font-weight: 700; margin-top: 70px;}
+
+#content{margin: 0 5%; margin-bottom: 100px;}
+/* #content .content_area div{position: relative;} */
+#content .content_area h3{font-size: 1.7rem; font-weight: 500;}
+#content .content_area .circle_t{display: block; content: ''; border: 5px solid #beddfa; border-radius: 100%; width: 10px; height: 10px; 
+    position: absolute; left: -10px; top: -3px; z-index: -10;}
+#content .content_area .subtitle{color: #1462ad; font-size: 1.275rem;}
