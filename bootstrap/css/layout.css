@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  html{
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family:'Noto Sans KR', 'Cinzel';
+    font-size: 18px;
+  }
+  .hidden, #skipNav{position: absolute; display: block;width:1px; height: 1px;
+     left:-1000%; top:0; overflow: hidden; color: #fff;}
+     .container-fluid{padding: 0; width: 100%;}
+  #navbar .container{position: fixed; background-color: #fff; width: 100%; z-index: 101; box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);}
+  .navbar-toggle .icon-bar{background-color: #ac9883;}
+  .navbar-brand{padding: 5px 15px;}
+  .navbar-brand>img{height: 40px;}
+  .navbar-nav a{font-family: 'Cinzel'; color: #ac9883;}
+
+  #footerArea{background: #ac9883; color: #fff; padding: 5%; }
+  #footerArea div{text-align: right; }
+  #footerArea .row div{line-height: 3rem;}
+  #footerArea .row div p{margin-top: 20px;}
+/* 와이드 pc */
+    #content{margin: 0 10%;}
+    #About, #New_Models, #Collection, #The_Salons{margin: 150px 0;}
+    h3{font-family: 'Cinzel'; font-weight: bold; color: #333; font-size: 4rem; text-align: center;}
+    .main_visual img{width: 100%;}
+    .text{line-height: 30px; font-weight: 300; margin-bottom: 30px;}
+    #About p{line-height: 30px;}
+    .about_imgs{position: relative; }
+    .about_imgs img{margin: 0 auto;}
+    .about_imgs p{text-align: center; position: absolute; top: 50%; left: 50%; font-weight: bold;
+      transform: translateX(-50%) translateY(-50%); font-family: 'Cinzel'; transition: all .5s;}
+
+    #New_Models{}
+    #New_Models .row{padding: 5% 0;}
+    #New_Models .row dl dt{font-family: 'Cinzel'; font-weight: bold; font-size: 30px; font-weight:lighter;}
+    #New_Models .row img{margin: 0 auto;}
+    #New_Models .row dl dd{position: relative;}
+    #New_Models .row dl dd a{position: absolute; color: #ac9883; font-weight: bold; left: 300px; top: -15px;}
+    #New_Models .row dl span{content: ''; display: block; width: 300px; height: 2px; background: #ac9883; 
+      position: absolute; left: 0; top: 0;}
+    #New_Models .row:last-child dl{padding: 10% 0;}
+
+    #Collection{}
+    #Collection .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{border: 0px; border-bottom: 1px solid #ddd; transition: all .5s;}
+    #Collection .nav-tabs{border-bottom: 0px;}
+    #Collection .nav li a{font-family: 'Cinzel'; color: #ac9883; text-align: center;}
+    #Collection .text{text-align: center; margin-top: 10px;}
+    #Collection ul li{list-style: none;}
+    #Collection ul li dl dt img{margin: 0 auto;}
+    #Collection ul li dl dd{text-align: center;}
+
+
+    
+
+/* 일반pc */
+@media screen and (max-width:1199px) {
+  #New_Models .row:last-child dl{padding: 5% 0;}
+  
+}
+
+/* 테블릿 */
+@media screen and (max-width:991px) {
+  #New_Models .row dl{text-align: center;}
+  #New_Models .row dl dt{font-size: 24px;}
+  #New_Models .row dl dd a{position: static; display: block; text-align: center; background: #ac9883; color: #fff; width: 100%; padding: 2%;}
+  #New_Models .row dl span{display: none;}
+
+}
+
+/* 소형테블릿 */
+@media screen and (max-width:767px) {
+  #About .text{text-align: center;}
+  .about_imgs{display: none;}
+
+  #footerArea .row{text-align: center;}
+  #footerArea .row img{margin: 0 auto; width: 50%; padding: 5%;}
+  #footerArea .row div{text-align: center;}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+}
